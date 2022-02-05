@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(173, 173, 173);
+}
+
+h1 {
+    font-size: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: aqua;
+    text-align: center;
+}
+
+ul {
+    padding-top: 125px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 125px 80px;
+}
+
+a {
+    background-color: rgb(29, 249, 29);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
