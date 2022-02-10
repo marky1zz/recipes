@@ -8,20 +8,23 @@ body {
     background-color: rgb(173, 173, 173);
 }
 
-h1 {
+/* home page styling */
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: aqua;
+    color: rgb(216, 0, 0);
     text-align: center;
 }
 
-ul {
+.recipes {
     padding-top: 125px;
     text-align: center;
 }
 
-li {
+.recipe {
     display: inline;
     padding: 125px 80px;
 }
@@ -36,3 +39,46 @@ a {
     display: inline-block;
     font-size: 25px;
 }
+
+/* recipes styling */
+
+img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    height: 450px;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 40px
+}
+
+.description {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.ingredients {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.ingredients li {
+    padding-bottom: 5px;
+}
+
+.steps {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.steps li {
+    padding-bottom: 15px;
+}
+
+
+
+
+
